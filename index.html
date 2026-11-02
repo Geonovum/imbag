@@ -10,9 +10,9 @@
       <script class="remove" src="https://tools.geostandaarden.nl/respec/config/geonovum-config.js"></script>
       <script class="remove" src="js/config.js"></script>
       <script class="remove">
-         const mergedLocalBiblio = {...organisationConfig.localBiblio, ...documentConfig.localBiblio};
-         const mergedPostProcess = [...(organisationConfig.postProcess ?? []),...(documentConfig.postProcess ?? [])];
-         respecConfig = {...organisationConfig, ...documentConfig, 
+         const mergedLocalBiblio = {...organisationConfig.localBiblio, ...respecConfig.localBiblio};
+         const mergedPostProcess = [...(organisationConfig.postProcess ?? []),...(respecConfig.postProcess ?? [])];
+         respecConfig = {...organisationConfig, ...respecConfig, 
             postProcess: mergedPostProcess, 
             localBiblio: mergedLocalBiblio};
          document.title = respecConfig.title;

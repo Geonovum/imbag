@@ -1,64 +1,64 @@
 
 # Implementatie {#3B455CCD}
-<p id='2F532520'>De Wet basisregistratie adressen en gebouwen stelt dat een afnemer BAG-gegevens kan afnemen bij zowel bronhouder als Landelijke Voorziening. Belangrijk uitgangspunt is daarbij dat de afnemer bij bronhouder en landelijke voorziening dezelfde gegevens krijgt.</p>
+De Wet basisregistratie adressen en gebouwen stelt dat een afnemer BAG-gegevens kan afnemen bij zowel bronhouder als Landelijke Voorziening. Belangrijk uitgangspunt is daarbij dat de afnemer bij bronhouder en landelijke voorziening dezelfde gegevens krijgt.  
 
-<p id='09A86DE8'>Om die reden is het van belang om eisen vast te leggen aan de implementatie van bepaalde aspecten die worden toegevoegd bij de implementatie van het conceptuele model in een logisch model. Het logisch model is de basis voor het maken van berichtschema's (StUF) en applicatieschema's (NEN 3610) voor de uitwisseling van BAG-gegevens tussen bronhouders en landelijke voorziening en tussen landelijke voorziening en afnemers. Het betreft eisen aan de implementatie van historie (zie §<a href='#271B8B87'>9.1</a>), in onderzoek (zie § <a href='#720DB17B'>9.2</a>), en formele patronen om de consistentie van deze gegevens in de hele BAG-keten te borgen (zie § <a href='#5B35E175'>9.3</a>).</p>
+Om die reden is het van belang om eisen vast te leggen aan de implementatie van bepaalde aspecten die worden toegevoegd bij de implementatie van het conceptuele model in een logisch model. Het logisch model is de basis voor het maken van berichtschema's (StUF) en applicatieschema's (NEN 3610) voor de uitwisseling van BAG-gegevens tussen bronhouders en landelijke voorziening en tussen landelijke voorziening en afnemers. Het betreft eisen aan de implementatie van historie (zie §<a href='#271B8B87'>9.1</a>), in onderzoek (zie § <a href='#720DB17B'>9.2</a>), en formele patronen om de consistentie van deze gegevens in de hele BAG-keten te borgen (zie § <a href='#5B35E175'>9.3</a>).  
 
 ## Historie {#271B8B87}
-<p id='5BFD444B'>In het conceptuele model wordt in de meta-gegevens opgenomen of een attribuut formele en materiële historie opbouwt, bijvoorbeeld het meta-gegeven 'indicatie formele historie' met waarde Ja. </p>
+In het conceptuele model wordt in de meta-gegevens opgenomen of een attribuut formele en materiële historie opbouwt, bijvoorbeeld het meta-gegeven 'indicatie formele historie' met waarde Ja.   
 
-<p id='2754C019'>De specificatie van formele en materiële historie uit het conceptuele model wordt vertaald naar een implementatie, bestaande uit bijbehorende attributen (tijdstippen). Deze implementatie vormt de basis voor de uitwisseling van BAG-gegevens (in bijvoorbeeld StUF of NEN 3610). Deze paragraaf beschrijft met welke attributen (tijdstippen) de BAG de formele en materiële historie implementeert en uitwisselt met de landelijke voorziening en welke aanvullende attributen (tijdstippen) worden bijgehouden in de landelijke voorziening voor de uitwisseling met afnemers.</p>
+De specificatie van formele en materiële historie uit het conceptuele model wordt vertaald naar een implementatie, bestaande uit bijbehorende attributen (tijdstippen). Deze implementatie vormt de basis voor de uitwisseling van BAG-gegevens (in bijvoorbeeld StUF of NEN 3610). Deze paragraaf beschrijft met welke attributen (tijdstippen) de BAG de formele en materiële historie implementeert en uitwisselt met de landelijke voorziening en welke aanvullende attributen (tijdstippen) worden bijgehouden in de landelijke voorziening voor de uitwisseling met afnemers.  
 
-<p id='6CF3756B'>Ook worden de regels vastgelegd voor het omgaan met object- en versiehistorie.</p>
+Ook worden de regels vastgelegd voor het omgaan met object- en versiehistorie.  
 
 ### Materiële en formele historie {#21BD6A4F}
-<p id='7758694A'>De materiële en formele historie worden met de volgende tijdstippen geïmplementeerd in de BAG:</p>
+De materiële en formele historie worden met de volgende tijdstippen geïmplementeerd in de BAG:  
 
-<p id='3BCD1197'><span style='color: #4472C4;'>Materiële historie</span></p>
-<p id='5A2F51D4'><b>beginGeldigheid:</b></p>
-<p style='margin-left: 12.5mm;' id='076B656D'>De datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de <i>beginGeldigheid</i>. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.</p>
+<span style='color: #4472C4;'>Materiële historie</span>  
+<b>beginGeldigheid:</b>  
+<p style='margin-left: 12.5mm;' id='076B656D'>De datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de <i>beginGeldigheid</i>. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.</p>  
 
-<p id='6BE5096C'><b>eindGeldigheid:</b></p>
-<p style='margin-left: 12.5mm;' id='0CE4B296'>De datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de <i>eindGeldigheid</i>.</p>
+<b>eindGeldigheid:</b>  
+<p style='margin-left: 12.5mm;' id='0CE4B296'>De datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de <i>eindGeldigheid</i>.</p>  
 
-<p id='2BBDFA2E'>De BAG legt materiële historie (<i>beginGeldigheid</i> en <i>eindGeldigheid</i>) en de datum van het brondocument (documentDatum) vast met de nauwkeurigheid van datum.</p>
+De BAG legt materiële historie (<i>beginGeldigheid</i> en <i>eindGeldigheid</i>) en de datum van het brondocument (documentDatum) vast met de nauwkeurigheid van datum.  
 
-<p id='6E1B3553'><span style='color: #4472C4;'>Formele historie</span></p>
-<p id='5B590F29'><b>tijdstipRegistratie:</b></p>
-<p style='margin-left: 12.5mm;' id='602625A0'>Het tijdstip waarop een versie van een BAG-object is geregistreerd in de registratie van bronhouder en daarmee authentiek wordt gemaakt. Dit tijdstip wordt vastgelegd in de <i>tijdstipRegistratie</i>.</p>
+<span style='color: #4472C4;'>Formele historie</span>  
+<b>tijdstipRegistratie:</b>  
+<p style='margin-left: 12.5mm;' id='602625A0'>Het tijdstip waarop een versie van een BAG-object is geregistreerd in de registratie van bronhouder en daarmee authentiek wordt gemaakt. Dit tijdstip wordt vastgelegd in de <i>tijdstipRegistratie</i>.</p>  
 
-<p id='5DE5D5B6'><b>eindRegistratie:</b></p>
-<p style='margin-left: 12.5mm;' id='0B9B4EC1'>Het tijdstip waarop een versie van een BAG-object is beëindigd in de registratie van bronhouder. Dit tijdstip wordt vastgelegd in de <i>eindRegistratie</i>.</p>
+<b>eindRegistratie:</b>  
+<p style='margin-left: 12.5mm;' id='0B9B4EC1'>Het tijdstip waarop een versie van een BAG-object is beëindigd in de registratie van bronhouder. Dit tijdstip wordt vastgelegd in de <i>eindRegistratie</i>.</p>  
 
-<p id='70B2A07E'><b>tijdstipRegistratieLV:</b></p>
-<p style='margin-left: 12.5mm;' id='2D23822E'>Dit is het tijdstip waarop een versie van een BAG-object is opgenomen in de registratie van de landelijke voorziening. De gegevens komen daarmee beschikbaar voor afnemers. Dit tijdstip wordt vastgelegd in de <i>tijdstipRegistratieLV</i>.</p>
+<b>tijdstipRegistratieLV:</b>  
+<p style='margin-left: 12.5mm;' id='2D23822E'>Dit is het tijdstip waarop een versie van een BAG-object is opgenomen in de registratie van de landelijke voorziening. De gegevens komen daarmee beschikbaar voor afnemers. Dit tijdstip wordt vastgelegd in de <i>tijdstipRegistratieLV</i>.</p>  
 
-<p id='47439ECA'>De BAG legt formele historie (<i>tijdstipRegistratie</i> en <i>eindRegistratie</i>) en <i>tijdstipRegistratieLV</i> vast met de nauwkeurigheid van datum en tijd in uren, minuten, seconden en milliseconden.</p>
+De BAG legt formele historie (<i>tijdstipRegistratie</i> en <i>eindRegistratie</i>) en <i>tijdstipRegistratieLV</i> vast met de nauwkeurigheid van datum en tijd in uren, minuten, seconden en milliseconden.  
 
 ### Object- en versiehistorie {#721EFE6B}
-<p id='717D38D4'>In de BAG ontstaan nieuwe BAG-objecten en worden gegevens van BAG-objecten in de tijd gewijzigd. Deze paragraaf beschrijft de te hanteren regels voor object- en versiehistorie.</p>
+In de BAG ontstaan nieuwe BAG-objecten en worden gegevens van BAG-objecten in de tijd gewijzigd. Deze paragraaf beschrijft de te hanteren regels voor object- en versiehistorie.  
 
-<p id='1E82A78D'>Om historie goed bij te kunnen houden, moet elk object uniek aan te wijzen zijn, moet elke versie van elk object uniek aan te wijzen zijn en moet eenduidig vast te stellen zijn tot welk object een versie behoort. De unieke identificatie van een versie is daarom samengesteld uit de unieke 'objectidentificatie', in combinatie met een kenmerk 'versieidentificatie', die elke versie binnen de context van het object, uniek identificeert. Bijvoorbeeld: objectidentificatie 0100100000001234 en versie 1. De versie-identificatie is een integer, begint bij 1 en wordt steeds met 1 opgehoogd.</p>
+Om historie goed bij te kunnen houden, moet elk object uniek aan te wijzen zijn, moet elke versie van elk object uniek aan te wijzen zijn en moet eenduidig vast te stellen zijn tot welk object een versie behoort. De unieke identificatie van een versie is daarom samengesteld uit de unieke 'objectidentificatie', in combinatie met een kenmerk 'versieidentificatie', die elke versie binnen de context van het object, uniek identificeert. Bijvoorbeeld: objectidentificatie 0100100000001234 en versie 1. De versie-identificatie is een integer, begint bij 1 en wordt steeds met 1 opgehoogd.  
 
-<p id='026BAC2D'>De volgende regels worden gehanteerd bij het ontstaan en wijzigen van een BAG-object:</p>
+De volgende regels worden gehanteerd bij het ontstaan en wijzigen van een BAG-object:  
 <ol type='1'><li>Als een nieuw BAG-object ontstaat, wordt een nieuw object met een objectidentificatie gecreëerd en ontstaat een versiehistorie. Deze eerste versie van het object krijgt een versie-identificatie 1, een <i>beginGeldigheid</i> en een <i>tijdstipRegistratie</i>.</li>
 <li>Wanneer het object wordt geregistreerd in de landelijke voorziening krijgt het object ook een <i>tijdstipRegistratieLV</i>.</li>
 <li>Als een attribuut van een object wijzigt, ontstaat er een nieuwe versie: de huidige versie krijgt van de bronhouder een <i>eindGeldigheid</i> en een <i>eindRegistratie</i>. Als een attribuut van een object wijzigt, ontstaat er een nieuwe versie: de vorige versie krijgt van de bronhouder een <i>eindGeldigheid</i>, die aansluit op de <i>beginGeldigheid</i> van de nieuwe versie, en een <i>eindRegistratie</i>.</li>
 </ol>
 
-<p id='578C14FD'>De bronhouder maakt een nieuwe versie van het object met de nieuwe gegevens aan conform het besluit (brondocument). De nieuwe versie van het object krijgt een unieke versie-identificatie, een <i>beginGeldigheid</i> en een <i>tijdstipRegistratie</i>, waarbij <i>beginGeldigheid</i> gelijk is aan <i>eindGeldigheid</i> van de vorige versie en <i>tijdstipRegistratie</i> gelijk is aan de <i>eindRegistratie</i> van de vorige versie. Na registratie van deze versie van het object in de landelijke voorziening krijgt deze versie van het object een eigen <i>tijdstipRegistratieLV</i>.</p>
+De bronhouder maakt een nieuwe versie van het object met de nieuwe gegevens aan conform het besluit (brondocument). De nieuwe versie van het object krijgt een unieke versie-identificatie, een <i>beginGeldigheid</i> en een <i>tijdstipRegistratie</i>, waarbij <i>beginGeldigheid</i> gelijk is aan <i>eindGeldigheid</i> van de vorige versie en <i>tijdstipRegistratie</i> gelijk is aan de <i>eindRegistratie</i> van de vorige versie. Na registratie van deze versie van het object in de landelijke voorziening krijgt deze versie van het object een eigen <i>tijdstipRegistratieLV</i>.  
 
-<p id='310BB656'>De versie-identificatie is een nummer. Voor een nieuw toe te kennen identificatie wordt altijd het eerstvolgende beschikbare nummer gekozen. Als het eerstvolgende nummer al in gebruik is bij een niet-authentieke versie van een object, dan is deze niet als uniek gegeven beschikbaar en wordt het eerstvolgende wel beschikbare nummer gekozen.</p>
+De versie-identificatie is een nummer. Voor een nieuw toe te kennen identificatie wordt altijd het eerstvolgende beschikbare nummer gekozen. Als het eerstvolgende nummer al in gebruik is bij een niet-authentieke versie van een object, dan is deze niet als uniek gegeven beschikbaar en wordt het eerstvolgende wel beschikbare nummer gekozen.  
 
-<p id='3749D26D'>De identificatie en versie-identificatie samen bepalen een unieke versie van een object. De bronhouder levert altijd de actuele versie van een object aan de landelijke voorziening. Het is niet toegestaan om gegevens te wijzigen die op het moment van wijzigen niet meer geldig zijn.</p>
+De identificatie en versie-identificatie samen bepalen een unieke versie van een object. De bronhouder levert altijd de actuele versie van een object aan de landelijke voorziening. Het is niet toegestaan om gegevens te wijzigen die op het moment van wijzigen niet meer geldig zijn.  
 
 ### Levenscyclus {#742C62A7}
-<p id='26049554'>De levenscyclus van een object in de BAG bestaat uit alle versies van een object. Dit zijn alle actieve en alle inactieve versies. Een actieve versie is een versie waarvan tijdstipInactief niet ingevuld is. Een inactieve versie is een versie waarvan tijdstipInactief wel ingevuld is.</p>
+De levenscyclus van een object in de BAG bestaat uit alle versies van een object. Dit zijn alle actieve en alle inactieve versies. Een actieve versie is een versie waarvan tijdstipInactief niet ingevuld is. Een inactieve versie is een versie waarvan tijdstipInactief wel ingevuld is.  
 
-<p id='7EFFA529'>Alleen de gegevens van de actieve versies tellen mee bij de beantwoording van vragen ten aanzien van welke gegevens er geldig zijn. Gegevens in versies die aangemerkt zijn als inactief tellen niet meer mee (maar deden dat eerder wel, toen ze nog actief waren).</p>
+Alleen de gegevens van de actieve versies tellen mee bij de beantwoording van vragen ten aanzien van welke gegevens er geldig zijn. Gegevens in versies die aangemerkt zijn als inactief tellen niet meer mee (maar deden dat eerder wel, toen ze nog actief waren).  
 
-<p id='42493083'><span style='color: #4472C4;'>Actieve levenscyclus</span></p>
-<p id='622F5706'>De actieve levenscyclus van een object in de BAG bestaat uit alle actieve versies van een object. De volgende regels gelden voor de actieve levenscyclus:</p>
+<span style='color: #4472C4;'>Actieve levenscyclus</span>  
+De actieve levenscyclus van een object in de BAG bestaat uit alle actieve versies van een object. De volgende regels gelden voor de actieve levenscyclus:  
 <ol type='1'><li>De beginGeldigheid van een versie kan in het verleden of in de toekomst liggen. Wanneer de beginGeldigheid in de toekomst ligt, dan zijn deze gegevens wel geldig, maar nog niet in werking getreden. </li>
 <li>Objecten worden in de registratie beëindigd door een eindstatus, zoals Pand gesloopt toe te kennen. Er zal dus altijd een geldige versie blijven bestaan, met een open einddatum.</li>
 <li>Op elk moment in de tijd is er één geldige versie in de levenscyclus van een object. Dat wil zeggen: <ol type='1'><li>De geldigheidsperiode loopt vanaf de beginGeldigheid tot de eindGeldigheid. Beide zijn een datum, omdat besluiten ingaan op een bepaalde dag, niet op een bepaald tijdstip.</li>
@@ -71,21 +71,21 @@
 <li>Er kunnen meerdere geldige versies geldig zijn op één dag. Meerdere versies hebben dan dezelfde beginGeldigheid en er is dan een versie met dezelfde beginGeldigheid als de eindGeldigheid. De laatste versie van de dag is dan leidend, herkenbaar aan het hoogste versie-identificatie. Bijvoorbeeld: versie 3 heeft een beginGeldigheid 31-12018 en eindGeldigheid 31-1-2018. Versie 4 heeft een begindatum 31-1-2018 en een open (geen) einddatum. Op 31-1-2018 zijn er twee versies geldig, met elk beginGeldigheid 31-1-2018. Versie 4 heeft het hoogste versie-identificatie en is dus leidend. Versie 3 is en blijft wel geldig. Aan de formele historie, oftewel tijdstipRegistratie en eindRegistratie van versie 3, is te zien wanneer en hoe lang de materiële gegevens van deze versie 3 formeel geldig zijn geweest.</li>
 </ol>
 
-<p id='0D886D31'><span style='color: #4472C4;'>Gegevens buiten de actieve levenscyclus plaatsen</span></p>
-<p id='151E34B1'>Er zijn situaties waarin een bronhouder een besluit (brondocument) intrekt of herziet. Bijvoorbeeld omdat een besluit beschrijft dat bepaalde gegevens in de toekomst ingaan en er een nieuw besluit wordt genomen die beschrijft dat deze gegevens toch niet in zullen gaan, bijvoorbeeld er wordt besloten om toch een andere straatnaam te hanteren alvorens de eerder besloten straatnaam in werking treedt.</p>
+<span style='color: #4472C4;'>Gegevens buiten de actieve levenscyclus plaatsen</span>  
+Er zijn situaties waarin een bronhouder een besluit (brondocument) intrekt of herziet. Bijvoorbeeld omdat een besluit beschrijft dat bepaalde gegevens in de toekomst ingaan en er een nieuw besluit wordt genomen die beschrijft dat deze gegevens toch niet in zullen gaan, bijvoorbeeld er wordt besloten om toch een andere straatnaam te hanteren alvorens de eerder besloten straatnaam in werking treedt.  
 
-<p id='188806D5'>Zowel het eerste besluit als het laatste besluit zijn brondocument voor de BAG en worden opgevoerd in de BAG-registratie van de bronhouder en aangeleverd aan de landelijke voorziening. Echter, alleen de gegevens van het laatste besluit zullen op enig moment in werking treden, omdat de eerdere gegevens zijn ingetrokken voor de inwerkingtreding.</p>
+Zowel het eerste besluit als het laatste besluit zijn brondocument voor de BAG en worden opgevoerd in de BAG-registratie van de bronhouder en aangeleverd aan de landelijke voorziening. Echter, alleen de gegevens van het laatste besluit zullen op enig moment in werking treden, omdat de eerdere gegevens zijn ingetrokken voor de inwerkingtreding.  
 
-<p id='4BC74B7D'>Op deze manier kunnen gegevens waarvan de datum beginGeldigheid in de toekomst ligt, buiten de actieve levenscyclus worden geplaatst door de bronhouder, wat wordt aangeduid met de term 'inactief maken'. De bronhouder dient daarbij ook de voorgaande (actieve) versie inactief te maken om een geldige materiële tijdslijn te waarborgen.</p>
+Op deze manier kunnen gegevens waarvan de datum beginGeldigheid in de toekomst ligt, buiten de actieve levenscyclus worden geplaatst door de bronhouder, wat wordt aangeduid met de term 'inactief maken'. De bronhouder dient daarbij ook de voorgaande (actieve) versie inactief te maken om een geldige materiële tijdslijn te waarborgen.  
 
-<p id='47D46A58'>Op het moment dat een bronhouder een versie van een object uit de actieve levenscyclus wil halen, kent de bronhouder een tijdstip (datum en tijd) toe aan het optionele attribuut tijdstipInactief met het moment waarop de bronhouder besluit om deze versie inactief te maken.</p>
+Op het moment dat een bronhouder een versie van een object uit de actieve levenscyclus wil halen, kent de bronhouder een tijdstip (datum en tijd) toe aan het optionele attribuut tijdstipInactief met het moment waarop de bronhouder besluit om deze versie inactief te maken.  
 
-<p id='1A6A4286'>Naast het opgeven van een tijdstipInactief voor de gegevens waarvan de beginGeldigheid in de toekomst ligt, geeft de bronhouder ook voor de voorgaande versie van het object aan dat deze inactief wordt door een datum en tijd te specificeren voor tijdstipInactief. Doordat de versie van het object daar weer voor een eindGeldigheid datum heeft, die niet in de toekomst maar in het verleden ligt, kan er een nieuwe versie worden opgevoerd met een lege eindGeldigheid (de nieuwe actieve en geldige versie).</p>
+Naast het opgeven van een tijdstipInactief voor de gegevens waarvan de beginGeldigheid in de toekomst ligt, geeft de bronhouder ook voor de voorgaande versie van het object aan dat deze inactief wordt door een datum en tijd te specificeren voor tijdstipInactief. Doordat de versie van het object daar weer voor een eindGeldigheid datum heeft, die niet in de toekomst maar in het verleden ligt, kan er een nieuwe versie worden opgevoerd met een lege eindGeldigheid (de nieuwe actieve en geldige versie).  
 
-<p id='468A1A8C'>Met het opnemen van het attribuut Inactief met een datum-tijd wordt kenbaar gemaakt dat deze versie van het object inactief is. Na het inactief maken van een versie ontstaat er een nieuwe levenscyclus, waar de versie die inactief is gemaakt nog steeds wel deel van uitmaakt. De inactieve versie maakt echter geen deel meer uit van de actieve levenscyclus. Als het attribuut Inactief niet voorkomt bij een versie van een object, dan behoren deze gegevens tot de actieve levenscyclus van het object.</p>
+Met het opnemen van het attribuut Inactief met een datum-tijd wordt kenbaar gemaakt dat deze versie van het object inactief is. Na het inactief maken van een versie ontstaat er een nieuwe levenscyclus, waar de versie die inactief is gemaakt nog steeds wel deel van uitmaakt. De inactieve versie maakt echter geen deel meer uit van de actieve levenscyclus. Als het attribuut Inactief niet voorkomt bij een versie van een object, dan behoren deze gegevens tot de actieve levenscyclus van het object.  
 
 ### Samenvatting {#3CF424C5}
-<p id='7C2A46BC'>Deze paragraaf geeft een samenvatting van de beschrijvingen in paragrafen 9.1.1, 9.1.2 en 9.1.3 van de implementatie van historie in de BAG (zie <a href='#d6aIcFbC'>Tabel 124</a>).</p>
+Deze paragraaf geeft een samenvatting van de beschrijvingen in paragrafen 9.1.1, 9.1.2 en 9.1.3 van de implementatie van historie in de BAG (zie <a href='#d6aIcFbC'>Tabel 124</a>).  
 <table id='d6aIcFbC' style='width: 100%;'><caption><span class='tblno'>Tabel 124</span>   Overzicht implementatie historie BAG</caption>
 <colgroup><col id='col1-d6aIcFbC' style='width: 25%;'>
 <col id='col2-d6aIcFbC' style='width: 25%;'>
@@ -138,9 +138,9 @@
 
 
 ## In onderzoek {#720DB17B}
-<p id='66B11CE4'>In § <a href='#0E4B2924'>4.8</a> wordt beschreven welke attributen en relaties van objecten in onderzoek geplaatst kunnen worden. In deze paragraaf wordt gespecificeerd op welke wijze in onderzoek moet worden geïmplementeerd in een logisch model IMBAG.</p>
+In § <a href='#0E4B2924'>4.8</a> wordt beschreven welke attributen en relaties van objecten in onderzoek geplaatst kunnen worden. In deze paragraaf wordt gespecificeerd op welke wijze in onderzoek moet worden geïmplementeerd in een logisch model IMBAG.  
 
-<p id='5773ECD7'>In onderzoek wordt geïmplementeerd middels een object Onderzoek. In dit objecttype worden de volgende gegevens van een inonderzoekplaatsing vastgelegd:</p>
+In onderzoek wordt geïmplementeerd middels een object Onderzoek. In dit objecttype worden de volgende gegevens van een inonderzoekplaatsing vastgelegd:  
 <ol type='1'><li>De identificatie van het object dat in onderzoek is geplaatst.</li>
 <li>De naam van het kenmerk of de attribuutsoort of de relatiesoort van het object dat in onderzoek is geplaatst. Per object kunnen bepaalde attributen en relaties in onderzoek worden geplaatst conform § <a href='#0E4B2924'>4.8</a> van deze catalogus.</li>
 <li>Het nummer van het document waarin de grondslag van het onderzoek wordt vastgelegd. Dit wordt vastgelegd in het attribuut documentnummer.</li>
@@ -153,9 +153,9 @@
 </ol>
 
 ## Formele patronen {#5B35E175}
-<p id='7AFD93FF'>In hoofdstuk 5 en hoofdstuk 8 worden de patronen van attributen in mensleesbare taal</p>
+In hoofdstuk 5 en hoofdstuk 8 worden de patronen van attributen in mensleesbare taal  
 
-<p id='67BCA896'>beschreven. Om interpretatieverschillen en inconsistentie in de BAG-keten te voorkomen specificeert <a href='#d6aIeBe'>Tabel 125</a> deze patronen als formele patronen met behulp van reguliere expressies.</p>
+beschreven. Om interpretatieverschillen en inconsistentie in de BAG-keten te voorkomen specificeert <a href='#d6aIeBe'>Tabel 125</a> deze patronen als formele patronen met behulp van reguliere expressies.  
 <table id='d6aIeBe' style='width: 100%;'><caption><span class='tblno'>Tabel 125</span>   Formele patronen</caption>
 <colgroup><col id='col1-d6aIeBe' style='width: 20.868008005899082%;'>
 <col id='col2-d6aIeBe' style='width: 14.916254081955124%;'>

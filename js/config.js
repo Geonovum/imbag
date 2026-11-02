@@ -1,4 +1,5 @@
-var documentConfig =
+// zie: https://geonovum.github.io/handleiding-tooling/ReSpec/ReSpec-publiceren/
+var respecConfig =
 {
   title: "Catalogus Basisregistratie Adressen en Gebouwen",
   //subtitle: "versie 2.0.1",

@@ -3755,7 +3755,7 @@
 ## Samengestelde attributen {#00683209}
 
 ### Objectnummering {#07737F01}
-<p id='3007C7DC'>Deze paragraaf geeft een beschrijving (zie <a href='#d6aGjBbC'>Tabel 90</a>) en benoemt de gegevens-elementen (zie <a href='#d6aGjBbE'>Tabel 91</a>) van het samengestelde attribuut objectnummering.</p>
+Deze paragraaf geeft een beschrijving (zie <a href='#d6aGjBbC'>Tabel 90</a>) en benoemt de gegevens-elementen (zie <a href='#d6aGjBbE'>Tabel 91</a>) van het samengestelde attribuut objectnummering.  
 <table id='d6aGjBbC' style='width: 100%;'><caption><span class='tblno'>Tabel 90</span>   Beschrijving van het samengestelde attribuut objectnummering</caption>
 <colgroup><col id='col1-d6aGjBbC' style='width: 30%;'>
 <col id='col2-d6aGjBbC' style='width: 70%;'>
@@ -3995,7 +3995,7 @@
 
 
 ### puntOfVlak {#10771E1F}
-<p id='76AE68DF'>Deze paragraaf geeft een beschrijving (zie <a href='#d6aGjCbC'>Tabel 95</a>) en benoemt de gegevens-elementen (zie <a href='#d6aGjCbE'>Tabel 96</a>) van het samengestelde attribuut puntOfVlak</p>
+Deze paragraaf geeft een beschrijving (zie <a href='#d6aGjCbC'>Tabel 95</a>) en benoemt de gegevens-elementen (zie <a href='#d6aGjCbE'>Tabel 96</a>) van het samengestelde attribuut puntOfVlak  
 <table id='d6aGjCbC' style='width: 100%;'><caption><span class='tblno'>Tabel 95</span>   Beschrijving van het samengestelde attribuut puntOfVlak</caption>
 <colgroup><col id='col1-d6aGjCbC' style='width: 30%;'>
 <col id='col2-d6aGjCbC' style='width: 70%;'>
@@ -4167,7 +4167,7 @@
 
 
 ### vlakOfMultivlak {#442DC321}
-<p id='2E23DE1B'>Deze paragraaf geeft een beschrijving (zie <a href='#d6aGjDbC'>Tabel 99</a>) en benoemt de gegevens-elementen (zie <a href='#d6aGjDbE'>Tabel 100</a>) van het samengestelde attribuut vlakOfMultivlak</p>
+Deze paragraaf geeft een beschrijving (zie <a href='#d6aGjDbC'>Tabel 99</a>) en benoemt de gegevens-elementen (zie <a href='#d6aGjDbE'>Tabel 100</a>) van het samengestelde attribuut vlakOfMultivlak  
 <table id='d6aGjDbC' style='width: 100%;'><caption><span class='tblno'>Tabel 99</span>   Beschrijving van het samengestelde attribuut vlakOfMultivlak</caption>
 <colgroup><col id='col1-d6aGjDbC' style='width: 30%;'>
 <col id='col2-d6aGjDbC' style='width: 70%;'>

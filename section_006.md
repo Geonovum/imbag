@@ -2,7 +2,7 @@
 # Objecttypen {#6B2023D8}
 
 ## Woonplaats {#4EBCE3BD}
-<p id='531EF5F4'>Deze paragraaf geeft een beschrijving (zie <a href='#d6aFbBc'>Tabel 8</a>) en benoemt de attributen (zie <a href='#d6aFbBe'>Tabel 9</a>) van het objecttype Woonplaats.</p>
+Deze paragraaf geeft een beschrijving (zie <a href='#d6aFbBc'>Tabel 8</a>) en benoemt de attributen (zie <a href='#d6aFbBe'>Tabel 9</a>) van het objecttype Woonplaats.  
 <table id='d6aFbBc' style='width: 100%;'><caption><span class='tblno'>Tabel 8</span>   Beschrijving van het objecttype Woonplaats</caption>
 <colgroup><col id='col1-d6aFbBc' style='width: 30%;'>
 <col id='col2-d6aFbBc' style='width: 70%;'>
@@ -90,7 +90,7 @@
 
 
 ## Openbare ruimte {#662B79B1}
-<p id='604523F2'>Deze paragraaf geeft een beschrijving (zie <a href='#d6aFcBc'>Tabel 10</a>) en benoemt de attributen (zie <a href='#d6aFcBe'>Tabel 11</a>) en relaties (zie <a href='#d6aFcBg'>Tabel 12</a>) van het objecttype Openbare ruimte.</p>
+Deze paragraaf geeft een beschrijving (zie <a href='#d6aFcBc'>Tabel 10</a>) en benoemt de attributen (zie <a href='#d6aFcBe'>Tabel 11</a>) en relaties (zie <a href='#d6aFcBg'>Tabel 12</a>) van het objecttype Openbare ruimte.  
 <table id='d6aFcBc' style='width: 100%;'><caption><span class='tblno'>Tabel 10</span>   Beschrijving van het objecttype Openbare ruimte</caption>
 <colgroup><col id='col1-d6aFcBc' style='width: 30%;'>
 <col id='col2-d6aFcBc' style='width: 70%;'>
@@ -198,7 +198,7 @@
 
 
 ## Nummeraanduiding {#1B0B9777}
-<p id='018978EA'>Deze paragraaf geeft een beschrijving (zie <a href='#d6aFdBc'>Tabel 13</a>) en benoemt de attributen (zie <a href='#d6aFdBe'>Tabel 14</a>) en relaties (zie <a href='#d6aFdBg'>Tabel 15</a>) van het objecttype Nummeraanduiding.</p>
+Deze paragraaf geeft een beschrijving (zie <a href='#d6aFdBc'>Tabel 13</a>) en benoemt de attributen (zie <a href='#d6aFdBe'>Tabel 14</a>) en relaties (zie <a href='#d6aFdBg'>Tabel 15</a>) van het objecttype Nummeraanduiding.  
 <table id='d6aFdBc' style='width: 100%;'><caption><span class='tblno'>Tabel 13</span>   Beschrijving van het objecttype Nummeraanduiding</caption>
 <colgroup><col id='col1-d6aFdBc' style='width: 30%;'>
 <col id='col2-d6aFdBc' style='width: 70%;'>
@@ -326,7 +326,7 @@
 
 
 ## Pand {#26815A9E}
-<p id='2426F27D'>Deze paragraaf geeft een beschrijving (zie <a href='#d6aFeBc'>Tabel 16</a>) en benoemt de attributen (zie <a href='#d6aFeBe'>Tabel 17</a>) van het objecttype Pand.</p>
+Deze paragraaf geeft een beschrijving (zie <a href='#d6aFeBc'>Tabel 16</a>) en benoemt de attributen (zie <a href='#d6aFeBe'>Tabel 17</a>) van het objecttype Pand.  
 <table id='d6aFeBc' style='width: 100%;'><caption><span class='tblno'>Tabel 16</span>   Beschrijving van het objecttype Pand</caption>
 <colgroup><col id='col1-d6aFeBc' style='width: 30%;'>
 <col id='col2-d6aFeBc' style='width: 70%;'>
@@ -414,7 +414,7 @@
 
 
 ## Adresseerbaar object {#5247E35D}
-<p id='15B106AC'>Deze paragraaf geeft een beschrijving (zie <a href='#d6aFfBc'>Tabel 18</a>) en benoemt de relaties (zie <a href='#d6aFfBe'>Tabel 19</a>) van het objecttype Adresseerbaar object.</p>
+Deze paragraaf geeft een beschrijving (zie <a href='#d6aFfBc'>Tabel 18</a>) en benoemt de relaties (zie <a href='#d6aFfBe'>Tabel 19</a>) van het objecttype Adresseerbaar object.  
 <table id='d6aFfBc' style='width: 100%;'><caption><span class='tblno'>Tabel 18</span>   Beschrijving van het objecttype Adresseerbaar object</caption>
 <colgroup><col id='col1-d6aFfBc' style='width: 30%;'>
 <col id='col2-d6aFfBc' style='width: 70%;'>
@@ -486,7 +486,7 @@
 
 
 ## Ligplaats {#4BFCB8ED}
-<p id='7DB24EE4'>Deze paragraaf geeft een beschrijving (zie <a href='#d6aFgBc'>Tabel 20</a>) en benoemt de attributen (zie <a href='#d6aFgBe'>Tabel 21</a>) van het objecttype Ligplaats.</p>
+Deze paragraaf geeft een beschrijving (zie <a href='#d6aFgBc'>Tabel 20</a>) en benoemt de attributen (zie <a href='#d6aFgBe'>Tabel 21</a>) van het objecttype Ligplaats.  
 <table id='d6aFgBc' style='width: 100%;'><caption><span class='tblno'>Tabel 20</span>   Beschrijving van het objecttype Ligplaats</caption>
 <colgroup><col id='col1-d6aFgBc' style='width: 30%;'>
 <col id='col2-d6aFgBc' style='width: 70%;'>
@@ -570,7 +570,7 @@
 
 
 ## Standplaats {#17E14507}
-<p id='36C90012'>Deze paragraaf geeft een beschrijving (zie <a href='#d6aFhBc'>Tabel 22</a>) en benoemt de attributen (zie <a href='#d6aFhBe'>Tabel 23</a>) van het objecttype Standplaats.</p>
+Deze paragraaf geeft een beschrijving (zie <a href='#d6aFhBc'>Tabel 22</a>) en benoemt de attributen (zie <a href='#d6aFhBe'>Tabel 23</a>) van het objecttype Standplaats.  
 <table id='d6aFhBc' style='width: 100%;'><caption><span class='tblno'>Tabel 22</span>   Beschrijving van het objecttype Standplaats</caption>
 <colgroup><col id='col1-d6aFhBc' style='width: 30%;'>
 <col id='col2-d6aFhBc' style='width: 70%;'>
@@ -654,7 +654,7 @@
 
 
 ## Verblijfsobject {#5FACC39A}
-<p id='58605FD8'>Deze paragraaf geeft een beschrijving (zie <a href='#d6aFiBc'>Tabel 24</a>) en benoemt de attributen (zie <a href='#d6aFiBe'>Tabel 25</a>) en relaties (zie <a href='#d6aFiBg'>Tabel 26</a>) van het objecttype Verblijfsobject.</p>
+Deze paragraaf geeft een beschrijving (zie <a href='#d6aFiBc'>Tabel 24</a>) en benoemt de attributen (zie <a href='#d6aFiBe'>Tabel 25</a>) en relaties (zie <a href='#d6aFiBg'>Tabel 26</a>) van het objecttype Verblijfsobject.  
 <table id='d6aFiBc' style='width: 100%;'><caption><span class='tblno'>Tabel 24</span>   Beschrijving van het objecttype Verblijfsobject</caption>
 <colgroup><col id='col1-d6aFiBc' style='width: 30%;'>
 <col id='col2-d6aFiBc' style='width: 70%;'>

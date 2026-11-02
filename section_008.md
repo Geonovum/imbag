@@ -2,7 +2,7 @@
 # Domeinwaarden {#545A2DD8}
 
 ## Indicatie {#39AD9EB2}
-<p id='5D4D5CCB'>Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Indicatie (zie <a href='#d6aHbBc'>Tabel 104</a> en <a href='#d6aHbBe'>Tabel 105</a>).</p>
+Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Indicatie (zie <a href='#d6aHbBc'>Tabel 104</a> en <a href='#d6aHbBe'>Tabel 105</a>).  
 <table id='d6aHbBc' style='width: 100%;'><caption><span class='tblno'>Tabel 104</span>   Beschrijving van het domein Indicatie</caption>
 <colgroup><col id='col1-d6aHbBc' style='width: 30%;'>
 <col id='col2-d6aHbBc' style='width: 70%;'>
@@ -42,7 +42,7 @@
 
 
 ## Gebruiksdoel {#63DF1DA7}
-<p id='4336CDAA'>Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Gebruiksdoel (zie <a href='#d6aHcBc'>Tabel 106</a> en <a href='#d6aHcBe'>Tabel 107</a>).</p>
+Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Gebruiksdoel (zie <a href='#d6aHcBc'>Tabel 106</a> en <a href='#d6aHcBe'>Tabel 107</a>).  
 <table id='d6aHcBc' style='width: 100%;'><caption><span class='tblno'>Tabel 106</span>   Beschrijving van het domein Gebruiksdoel</caption>
 <colgroup><col id='col1-d6aHcBc' style='width: 30%;'>
 <col id='col2-d6aHcBc' style='width: 70%;'>
@@ -109,7 +109,7 @@
 
 
 ## StatusWoonplaats {#3BBEC5D0}
-<p id='0E574C2B'>Deze paragraaf geeft een beschrijving en de geldige waarden van het domein StatusWoonplaats (zie <a href='#d6aHdBc'>Tabel 108</a> en <a href='#d6aHdBe'>Tabel 109</a>).</p>
+Deze paragraaf geeft een beschrijving en de geldige waarden van het domein StatusWoonplaats (zie <a href='#d6aHdBc'>Tabel 108</a> en <a href='#d6aHdBe'>Tabel 109</a>).  
 <table id='d6aHdBc' style='width: 100%;'><caption><span class='tblno'>Tabel 108</span>   Beschrijving van het domein StatusWoonplaats</caption>
 <colgroup><col id='col1-d6aHdBc' style='width: 30%;'>
 <col id='col2-d6aHdBc' style='width: 70%;'>
@@ -149,7 +149,7 @@
 
 
 ## StatusNaamgeving {#204C08E3}
-<p id='7B883803'>Deze paragraaf geeft een beschrijving en de geldige waarden van het domein StatusNaamgeving (zie <a href='#d6aHeBc'>Tabel 110</a> en <a href='#d6aHeBe'>Tabel 111</a>).</p>
+Deze paragraaf geeft een beschrijving en de geldige waarden van het domein StatusNaamgeving (zie <a href='#d6aHeBc'>Tabel 110</a> en <a href='#d6aHeBe'>Tabel 111</a>).  
 <table id='d6aHeBc' style='width: 100%;'><caption><span class='tblno'>Tabel 110</span>   Beschrijving van het domein StatusNaamgeving</caption>
 <colgroup><col id='col1-d6aHeBc' style='width: 30%;'>
 <col id='col2-d6aHeBc' style='width: 70%;'>
@@ -189,7 +189,7 @@
 
 
 ## StatusPand {#517574E3}
-<p id='54F7A8B3'>Deze paragraaf geeft een beschrijving en de geldige waarden van het domein StatusPand (zie <a href='#d6aHfBc'>Tabel 112</a> en <a href='#d6aHfBe'>Tabel 113</a>).</p>
+Deze paragraaf geeft een beschrijving en de geldige waarden van het domein StatusPand (zie <a href='#d6aHfBc'>Tabel 112</a> en <a href='#d6aHfBe'>Tabel 113</a>).  
 <table id='d6aHfBc' style='width: 100%;'><caption><span class='tblno'>Tabel 112</span>   Beschrijving van het domein StatusPand</caption>
 <colgroup><col id='col1-d6aHfBc' style='width: 30%;'>
 <col id='col2-d6aHfBc' style='width: 70%;'>
@@ -253,7 +253,7 @@
 
 
 ## StatusPlaats {#18C7BADB}
-<p id='354E53DF'>Deze paragraaf geeft een beschrijving en de geldige waarden van het domein StatusPlaats (zie <a href='#d6aHgBc'>Tabel 114</a> en <a href='#d6aHgBe'>Tabel 115</a>).</p>
+Deze paragraaf geeft een beschrijving en de geldige waarden van het domein StatusPlaats (zie <a href='#d6aHgBc'>Tabel 114</a> en <a href='#d6aHgBe'>Tabel 115</a>).  
 <table id='d6aHgBc' style='width: 100%;'><caption><span class='tblno'>Tabel 114</span>   Beschrijving van het domein StatusPlaats</caption>
 <colgroup><col id='col1-d6aHgBc' style='width: 30%;'>
 <col id='col2-d6aHgBc' style='width: 70%;'>
@@ -293,7 +293,7 @@
 
 
 ## StatusVerblijfsobject {#1D3C1F44}
-<p id='1962BEFB'>Deze paragraaf geeft een beschrijving en de geldige waarden van het domein StatusVerblijfsobject (zie <a href='#d6aHhBc'>Tabel 116</a> en <a href='#d6aHhBe'>Tabel 117</a>).</p>
+Deze paragraaf geeft een beschrijving en de geldige waarden van het domein StatusVerblijfsobject (zie <a href='#d6aHhBc'>Tabel 116</a> en <a href='#d6aHhBe'>Tabel 117</a>).  
 <table id='d6aHhBc' style='width: 100%;'><caption><span class='tblno'>Tabel 116</span>   Beschrijving van het domein StatusVerblijfsobject</caption>
 <colgroup><col id='col1-d6aHhBc' style='width: 30%;'>
 <col id='col2-d6aHhBc' style='width: 70%;'>
@@ -351,7 +351,7 @@
 
 
 ## TypeAdresseerbaarObject {#42F78DD5}
-<p id='04647004'>Deze paragraaf geeft een beschrijving en de geldige waarden van het domein TypeAdresseerbaarObject (zie <a href='#d6aHiBc'>Tabel 118</a> en <a href='#d6aHiBe'>Tabel 119</a>).</p>
+Deze paragraaf geeft een beschrijving en de geldige waarden van het domein TypeAdresseerbaarObject (zie <a href='#d6aHiBc'>Tabel 118</a> en <a href='#d6aHiBe'>Tabel 119</a>).  
 <table id='d6aHiBc' style='width: 100%;'><caption><span class='tblno'>Tabel 118</span>   Beschrijving van het domein TypeAdresseerbaarObject</caption>
 <colgroup><col id='col1-d6aHiBc' style='width: 30%;'>
 <col id='col2-d6aHiBc' style='width: 70%;'>
@@ -394,7 +394,7 @@
 
 
 ## TypeOpenbareRuimte {#48658ED1}
-<p id='6412E980'>Deze paragraaf geeft een beschrijving en de geldige waarden van het domein TypeOpenbareRuimte (zie <a href='#d6aHjBc'>Tabel 120</a> en <a href='#d6aHjBe'>Tabel 121</a>).</p>
+Deze paragraaf geeft een beschrijving en de geldige waarden van het domein TypeOpenbareRuimte (zie <a href='#d6aHjBc'>Tabel 120</a> en <a href='#d6aHjBe'>Tabel 121</a>).  
 <table id='d6aHjBc' style='width: 100%;'><caption><span class='tblno'>Tabel 120</span>   Beschrijving van het domein TypeOpenbareRuimte</caption>
 <colgroup><col id='col1-d6aHjBc' style='width: 30%;'>
 <col id='col2-d6aHjBc' style='width: 70%;'>
@@ -449,7 +449,7 @@
 
 
 ## Objecttypecode {#22355263}
-<p id='4C420898'>Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Objecttypecode (zie <a href='#d6aHkBc'>Tabel 122</a> en <a href='#d6aHkBe'>Tabel 123</a>).</p>
+Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Objecttypecode (zie <a href='#d6aHkBc'>Tabel 122</a> en <a href='#d6aHkBe'>Tabel 123</a>).  
 <table id='d6aHkBc' style='width: 100%;'><caption><span class='tblno'>Tabel 122</span>   Beschrijving van het domein Objecttypecode</caption>
 <colgroup><col id='col1-d6aHkBc' style='width: 30%;'>
 <col id='col2-d6aHkBc' style='width: 70%;'>
