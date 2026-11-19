@@ -39,7 +39,7 @@ Elke wijziging van de gegevens in de BAG is gebaseerd op een brondocument. Ook b
 </span></span>. Digitale brondocumenten en brondocumenten in de vorm van berichten zijn toegestaan. Een brondocument kan een of meer objecten en/of attributen betreﬀen. Brondocumenten mogen niet uit de archieven van bronhouder worden verwijderd en worden door de bronhouder dus blijvend opgeslagen, met inachtneming van de regels uit de Archiefwet<span class='noot'>[4]<span class='noottekst'>Archiefwet 1995. http://wetten.overheid.nl/jci1.3:c:BWBR0007376<br/>
 </span></span>.  
 
-Voor de leesbaarheid is er voor gekozen dat 'een beslissing tot verlening van een vergunning of andere publiekrechtelijke toestemming voor het bouwen, veranderen of slopen van een pand of verblijfsobject, alsmede de wijziging of intrekking daarvan in dit document als vergunning wordt beschouwd<span class='noot'>[5]<span class='noottekst'>Besluit basisregistratie adressen en gebouwen, artikel 7, onderdeel e. https://wetten.overheid.nl/BWBR0025520/2018-07-01/0#Hoofdstuk2_Artikel7 <br/>
+Voor de leesbaarheid is er voor gekozen dat 'een beslissing tot verlening van een vergunning of andere publiekrechtelijke toestemming voor het bouwen, veranderen of slopen van een pand of verblijfsobject, alsmede de wijziging of intrekking daarvan’ in dit document als vergunning wordt beschouwd<span class='noot'>[5]<span class='noottekst'>Besluit basisregistratie adressen en gebouwen, artikel 7, onderdeel e. https://wetten.overheid.nl/BWBR0025520/2018-07-01/0#Hoofdstuk2_Artikel7 <br/>
 </span></span>.  
 
 ## Landelijke voorziening {#0BD90EC8}
@@ -49,7 +49,7 @@ De gemeente registreert als bronhouder alle gegevens overeenkomstig de inhoud va
 Het werkingsgebied van de BAG is het bestuurlijk ingedeelde gebied van Nederland in Europa, oftewel de verzameling van gemeenten in Nederland. De gemeentegrens van kustgemeenten ligt op circa een kilometer uit de kust. Wat buiten de gemeentegrens ligt, wordt niet in de BAG opgenomen; wat erbinnen ligt wel.  
 
 ## Modellering {#3BCC296C}
-De BAG hanteert voor de modellering het nationaal metamodel voor informatiemodellering (MIM), dat is ontwikkeld door VNG Realisatie, Kadaster en Geonovum<span class='noot'>[6]<span class='noottekst'>Nationaal metamodel voor informatiemodellering (MIM), versie 1.0 van 14 juni 2017. https://www.geonov um.nl/wegwijzer/standaarden/nationaal-metamodel-voor-informatiemodellering<br/>
+De BAG hanteert voor de modellering het nationaal metamodel voor informatiemodellering (MIM), dat is ontwikkeld door VNG Realisatie, Kadaster en Geonovum<span class='noot'>[6]<span class='noottekst'>Nationaal metamodel voor informatiemodellering (MIM), versie 1.0 van 14 juni 2017. https://www.geonovum.nl/wegwijzer/standaarden/nationaal-metamodel-voor-informatiemodellering<br/>
 </span></span>. Het conceptuele informatiemodel voor de BAG (IMBAG) wordt beschikbaar gesteld in UML<span class='noot'>[7]<span class='noottekst'>De UML wordt beschikbaar gesteld in het bestandsformaat van de applicatie Enterprise Architect (.eap). https://en.wikipedia.org/wiki/Enterprise_Architect_(software)<br/>
 </span></span>. Bij deze UML wordt een toelichting beschikbaar gesteld die beschrijft welke keuzes de BAG heeft gemaakt bij de toepassing van het MIM.  
 

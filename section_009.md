@@ -15,22 +15,22 @@ Ook worden de regels vastgelegd voor het omgaan met object- en versiehistorie.
 De materiële en formele historie worden met de volgende tijdstippen geïmplementeerd in de BAG:  
 
 <span style='color: #4472C4;'>Materiële historie</span>  
-<b>beginGeldigheid:</b>  
+<b>beginGeldigheid</b><b>:</b>  
 <p style='margin-left: 12.5mm;' id='076B656D'>De datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de <i>beginGeldigheid</i>. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.</p>  
 
-<b>eindGeldigheid:</b>  
+<b>eindGeldigheid</b><b>:</b>  
 <p style='margin-left: 12.5mm;' id='0CE4B296'>De datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de <i>eindGeldigheid</i>.</p>  
 
 De BAG legt materiële historie (<i>beginGeldigheid</i> en <i>eindGeldigheid</i>) en de datum van het brondocument (documentDatum) vast met de nauwkeurigheid van datum.  
 
 <span style='color: #4472C4;'>Formele historie</span>  
-<b>tijdstipRegistratie:</b>  
+<b>tijdstipRegistratie</b><b>:</b>  
 <p style='margin-left: 12.5mm;' id='602625A0'>Het tijdstip waarop een versie van een BAG-object is geregistreerd in de registratie van bronhouder en daarmee authentiek wordt gemaakt. Dit tijdstip wordt vastgelegd in de <i>tijdstipRegistratie</i>.</p>  
 
-<b>eindRegistratie:</b>  
+<b>eindRegistratie</b><b>:</b>  
 <p style='margin-left: 12.5mm;' id='0B9B4EC1'>Het tijdstip waarop een versie van een BAG-object is beëindigd in de registratie van bronhouder. Dit tijdstip wordt vastgelegd in de <i>eindRegistratie</i>.</p>  
 
-<b>tijdstipRegistratieLV:</b>  
+<b>tijdstipRegistratieLV</b><b>:</b>  
 <p style='margin-left: 12.5mm;' id='2D23822E'>Dit is het tijdstip waarop een versie van een BAG-object is opgenomen in de registratie van de landelijke voorziening. De gegevens komen daarmee beschikbaar voor afnemers. Dit tijdstip wordt vastgelegd in de <i>tijdstipRegistratieLV</i>.</p>  
 
 De BAG legt formele historie (<i>tijdstipRegistratie</i> en <i>eindRegistratie</i>) en <i>tijdstipRegistratieLV</i> vast met de nauwkeurigheid van datum en tijd in uren, minuten, seconden en milliseconden.  
