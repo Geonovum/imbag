@@ -8,10 +8,10 @@ var respecConfig =
   specStatus: "wv",
   specType: "st",
   license: "cc-by-nd",
-  publishDate: "2026-10-20",
-  latestVersion: [
-    "https://test.docs.geostandaarden.nl/bag/vv-st-imbag-20261020/"
-  ],
+  publishDate: "2027-01-01",
+  //latestVersion: [
+  //  "https://test.docs.geostandaarden.nl/bag/vv-st-imbag-20261020/"
+  //],
   publishVersion: "2.0.1",
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beide aan/uit! Vorige versie kan ook cv of vv zijn.
   // previousPublishDate: "2026-10-20",
